@@ -1,0 +1,74 @@
+{
+  "main": {
+    "resumedownload":"http://timbakerdev.com",
+    "social":[
+      {
+        "name":"github",
+        "url":"http://github.com/kikiho",
+        "className":"fa fa-github"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/kikihkho/",
+        "className":"fa fa-linkedin"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "education":[
+      {
+        "school":"University of British Columbia",
+        "degree":"Bachelor of Computer Science",
+        "graduated":"Expected May 2020"
+      },
+      {
+        "school":"University of British Columbia",
+        "degree":"Bachelor of Science: Biology",
+        "graduated":"May 2017"
+      }
+    ],
+    "work":[
+      {
+        "company":"Cronometer Software Inc.",
+        "title":"Software Developer",
+        "years":"September 2018-May 2019",
+        "description":"Full stack development of a popular cross platform nutrition tracking application built using Java, Dart, SQL, HTML/CSS and technologies such as GWT and Google Flutter, using Git as version control"
+      },
+      {
+        "company":"Cognitive Systems Program, UBC",
+        "title":"Research Assistant - Curriculum Development",
+        "years":"May 2018 - August 2018",
+        "description":"Developed curriculum for the lab component of an upper level cognitive science course, COGS 300 (Understanding and Designing Cognitive Systems), involving various projects using Arduino, see http://blogs.ubc.ca/cogs300"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"OpBuddy",
+        "category":"React based web application using Microsoft Azure's Computer Vision API intended to help individuals with upcoming surgeries manage their appointments, mnedications and costs.",
+        "image":"opbuddy.jpg",
+        "url":"https://devpost.com/software/opbuddy"
+      },
+      {
+        "title":"Insight UBC",
+        "category":"Full stack web application built using Typescript and NodeJS that allows users to query UBC datasets for information about courses and buildings",
+        "image":"campusexplorer.jpg",
+        "url":"https://github.com/ubccpsc/310/blob/2019sept/project/README.md"
+      },
+      {
+        "title":"factually.ai",
+        "category":"Web application built with Flask to demonstrate machine learning model that classifies Facebook comments as anti-vaccination or not",
+        "image":"factually.jpg",
+        "url":""
+      },
+      {
+        "title":"ASL Recognizer",
+        "category":"Android application that translated English text into America Sign Language using Google’s Mobile Vision Text API, Java and Android Studio",
+        "image":"asl.jpg",
+        "url":"https://devpost.com/software/aslinterpreter"
+      }
+    ]
+  }
+}
